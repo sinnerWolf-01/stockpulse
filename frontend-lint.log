@@ -1,0 +1,6 @@
+
+> frontend@0.0.0 lint
+> oxlint ; type C:\Users\zycus\Desktop\zycus interview\frontend-lint.log
+
+No files found to lint. Please check your paths and ignore patterns.
+Finished in 9ms on 0 files with 104 rules using 8 threads.

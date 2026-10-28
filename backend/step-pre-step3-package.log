@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24271 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] -----------------------< com.stockpulse:backend >-----------------------
+[INFO] Building stockpulse-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)

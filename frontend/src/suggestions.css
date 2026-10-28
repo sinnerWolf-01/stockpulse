@@ -1,0 +1,15 @@
+.suggestion-list { display: grid; gap: 10px; margin-top: 16px; }
+.suggestion-empty { display: block; margin-top: 14px; color: #98a2b0; }
+.suggestion-card { display: flex; justify-content: space-between; gap: 18px; border: 1px solid #e5eaf1; border-radius: 9px; padding: 13px; }
+.suggestion-card b { display: block; color: #885bd6; font-size: 11px; text-transform: uppercase; }
+.suggestion-card strong { display: block; margin-top: 3px; }
+.suggestion-card p { margin: 4px 0; font-weight: 700; }
+.suggestion-card small { color: #778398; }
+.suggestion-actions { display: flex; align-items: center; gap: 8px; }
+.suggestion-actions button { white-space: nowrap; }
+.strategy-panel { margin-bottom: 26px; }
+.strategy-form { display: flex; align-items: end; gap: 14px; flex-wrap: wrap; }
+.strategy-form label { min-width: 180px; }
+.strategy-form select { display: block; width: 100%; margin-top: 7px; padding: 10px; border: 1px solid #dce2eb; border-radius: 7px; background: #fff; color: #526075; }
+.strategy-help { color: #778398; font-size: 13px; margin: 4px 0 16px; }
+@media (max-width: 600px) { .suggestion-card { flex-direction: column; } .suggestion-actions { justify-content: flex-end; } }

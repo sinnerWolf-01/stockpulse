@@ -1,0 +1,8 @@
+Loading environment from "C:\Users\zycus\Desktop\zycus interview\backend\.env.local"
+
+Starting StockPulse backend on port 8080...
+Stop the server with Ctrl+C.
+
+[INFO] Scanning for projects...
+[INFO] Loaded 24271 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+^CTerminate batch job (Y/N)? 

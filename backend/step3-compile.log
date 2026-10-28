@@ -1,0 +1,83 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24271 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] -----------------------< com.stockpulse:backend >-----------------------
+[INFO] Building stockpulse-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ backend ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 21 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[31,66] cannot find symbol
+  symbol:   class RequestBody
+  location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[30,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[36,56] cannot find symbol
+  symbol:   class PathVariable
+  location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[37,63] cannot find symbol
+  symbol:   class RequestBody
+  location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[35,6] cannot find symbol
+  symbol:   class PatchMapping
+  location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[42,56] cannot find symbol
+  symbol:   class PathVariable
+  location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[43,63] cannot find symbol
+  symbol:   class RequestBody
+  location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[41,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class com.stockpulse.product.ProductController
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.424 s
+[INFO] Finished at: 2026-10-28T15:54:36+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[31,66] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[30,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[36,56] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[37,63] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[35,6] cannot find symbol
+[ERROR]   symbol:   class PatchMapping
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[42,56] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[43,63] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] /C:/Users/zycus/Desktop/zycus interview/backend/src/main/java/com/stockpulse/product/ProductController.java:[41,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class com.stockpulse.product.ProductController
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

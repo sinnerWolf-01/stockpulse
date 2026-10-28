@@ -1,0 +1,130 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24271 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] -----------------------< com.stockpulse:backend >-----------------------
+[INFO] Building stockpulse-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ backend ---
+[INFO] Deleting C:\Users\zycus\Desktop\zycus interview\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 41 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ backend ---
+[INFO] skip non existing resourceDirectory C:\Users\zycus\Desktop\zycus interview\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ backend ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 9 source files with javac [debug parameters release 17] to target\test-classes
+[WARNING] /C:/Users/zycus/Desktop/zycus interview/backend/src/test/java/com/stockpulse/product/ProductControllerTest.java:[23,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ backend ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.stockpulse.BackendApplicationTests
+16:35:22.941 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.stockpulse.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:35:23.104 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.stockpulse.BackendApplication for test class com.stockpulse.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-10-28T16:35:23.697+05:30  INFO 26100 --- [stockpulse] [           main] com.stockpulse.BackendApplicationTests   : Starting BackendApplicationTests using Java 27 with PID 26100 (started by zycus in C:\Users\zycus\Desktop\zycus interview\backend)
+2026-10-28T16:35:23.699+05:30  INFO 26100 --- [stockpulse] [           main] com.stockpulse.BackendApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T16:35:24.748+05:30  INFO 26100 --- [stockpulse] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-28T16:35:24.867+05:30  INFO 26100 --- [stockpulse] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+2026-10-28T16:35:25.561+05:30  INFO 26100 --- [stockpulse] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-28T16:35:25.650+05:30  INFO 26100 --- [stockpulse] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-10-28T16:35:25.719+05:30  INFO 26100 --- [stockpulse] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-28T16:35:26.275+05:30  INFO 26100 --- [stockpulse] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-28T16:35:26.326+05:30  INFO 26100 --- [stockpulse] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-28T16:35:26.586+05:30  INFO 26100 --- [stockpulse] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:stockpulse user=SA
+2026-10-28T16:35:26.591+05:30  INFO 26100 --- [stockpulse] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-28T16:35:26.664+05:30  INFO 26100 --- [stockpulse] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-28T16:35:28.925+05:30  INFO 26100 --- [stockpulse] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-28T16:35:29.033+05:30  INFO 26100 --- [stockpulse] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-28T16:35:29.586+05:30  INFO 26100 --- [stockpulse] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-28T16:35:32.775+05:30  INFO 26100 --- [stockpulse] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stockpulse'
+2026-10-28T16:35:32.975+05:30  INFO 26100 --- [stockpulse] [           main] com.stockpulse.BackendApplicationTests   : Started BackendApplicationTests in 9.668 seconds (process running for 11.354)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\zycus\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.7\byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.07 s -- in com.stockpulse.BackendApplicationTests
+[INFO] Running com.stockpulse.product.MutationValidationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 s -- in com.stockpulse.product.MutationValidationTest
+[INFO] Running com.stockpulse.product.ProductControllerTest
+2026-10-28T16:35:35.308+05:30  INFO 26100 --- [stockpulse] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.stockpulse.product.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28T16:35:35.470+05:30  INFO 26100 --- [stockpulse] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.stockpulse.BackendApplication for test class com.stockpulse.product.ProductControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-10-28T16:35:35.582+05:30  INFO 26100 --- [stockpulse] [           main] c.s.product.ProductControllerTest        : Starting ProductControllerTest using Java 27 with PID 26100 (started by zycus in C:\Users\zycus\Desktop\zycus interview\backend)
+2026-10-28T16:35:35.582+05:30  INFO 26100 --- [stockpulse] [           main] c.s.product.ProductControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T16:35:38.064+05:30  INFO 26100 --- [stockpulse] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-10-28T16:35:38.065+05:30  INFO 26100 --- [stockpulse] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-28T16:35:38.068+05:30  INFO 26100 --- [stockpulse] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-10-28T16:35:38.118+05:30  INFO 26100 --- [stockpulse] [           main] c.s.product.ProductControllerTest        : Started ProductControllerTest in 2.637 seconds (process running for 16.497)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.258 s -- in com.stockpulse.product.ProductControllerTest
+[INFO] Running com.stockpulse.product.ProductMutationConcurrencyTest
+2026-10-28T16:35:39.634+05:30  INFO 26100 --- [stockpulse] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.stockpulse.product.ProductMutationConcurrencyTest]: ProductMutationConcurrencyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28T16:35:39.638+05:30  INFO 26100 --- [stockpulse] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.stockpulse.BackendApplication for test class com.stockpulse.product.ProductMutationConcurrencyTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.430 s -- in com.stockpulse.product.ProductMutationConcurrencyTest
+[INFO] Running com.stockpulse.product.ProductServiceTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.816 s -- in com.stockpulse.product.ProductServiceTest
+[INFO] Running com.stockpulse.product.ProductStatusPolicyTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in com.stockpulse.product.ProductStatusPolicyTest
+[INFO] Running com.stockpulse.suggestion.CommerceAdvisorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.391 s -- in com.stockpulse.suggestion.CommerceAdvisorTest
+[INFO] Running com.stockpulse.suggestion.RuleStrategyTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in com.stockpulse.suggestion.RuleStrategyTest
+[INFO] Running com.stockpulse.suggestion.SuggestionPersistenceTest
+2026-10-28T16:35:42.404+05:30  INFO 26100 --- [stockpulse] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.stockpulse.suggestion.SuggestionPersistenceTest]: SuggestionPersistenceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-28T16:35:42.551+05:30  INFO 26100 --- [stockpulse] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.stockpulse.BackendApplication for test class com.stockpulse.suggestion.SuggestionPersistenceTest
+2026-10-28T16:35:43.311+05:30  WARN 26100 --- [stockpulse] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2026-10-28T16:35:43.312+05:30 ERROR 26100 --- [stockpulse] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_D ON PUBLIC.PRICING_SUGGESTIONS(ACTIVE_KEY NULLS FIRST) VALUES ( /* 3 */ 'PRD-001|DEMAND_SPIKE' )"; SQL statement:
+insert into pricing_suggestions (active_key,confidence,created_at,current_price,direction,product_id,reasoning,recommended_price,resolution_note,resolved_at,source,status,trigger_reason,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,default) [23505-232]
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.004 s -- in com.stockpulse.suggestion.SuggestionPersistenceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.603 s
+[INFO] Finished at: 2026-10-28T16:35:43+05:30
+[INFO] ------------------------------------------------------------------------
